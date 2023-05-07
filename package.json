@@ -1,0 +1,27 @@
+{
+  "name": "slack-ai",
+  "version": "1.0.0",
+  "description": "AI-powered Slack Companion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcore-digital/slack-ai.git"
+  },
+  "keywords": [
+    "slack",
+    "ai",
+    "heroku"
+  ],
+  "author": "vCore Digital",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcore-digital/slack-ai/issues"
+  },
+  "homepage": "https://github.com/vcore-digital/slack-ai#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.13.1"
+  }
+}
