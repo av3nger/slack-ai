@@ -4,6 +4,7 @@
   "description": "AI-powered Slack Companion",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/vcore-digital/slack-ai#readme",
   "dependencies": {
-    "@slack/bolt": "^3.13.1"
+    "@slack/bolt": "^3.13.1",
+    "openai": "^3.2.1"
   }
 }
