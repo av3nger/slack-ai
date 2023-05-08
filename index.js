@@ -93,7 +93,15 @@ app.event('message', async ({ event, context, say }) => {
     await say({
       channel: event.channel,
       thread_ts: event.thread_ts,
-      text: response,
+      blocks: [
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": response,
+          }
+        }
+      ]
     });
   }
   catch (error) {
