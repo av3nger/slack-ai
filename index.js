@@ -37,7 +37,7 @@ const sendAiRequest = async (thread, botUserId) => {
   messages.unshift({role: "system", content: "You are a Slack bot. Make sure to format your messages using mrkdwn syntax."})
 
   const completion = await openai.createChatCompletion({
-    model: "gpt-3.5-turbo",
+    model: "gpt-4o",
     messages: messages,
   });
 
