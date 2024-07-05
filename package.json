@@ -1,29 +1,15 @@
 {
-  "name": "slack-ai",
+  "name": "slack",
   "version": "1.0.0",
-  "description": "AI-powered Slack Companion",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240620.0",
+    "typescript": "^5.5.3",
+    "wrangler": "3.63.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vcore-digital/slack-ai.git"
-  },
-  "keywords": [
-    "slack",
-    "ai",
-    "heroku"
-  ],
-  "author": "vCore Digital",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vcore-digital/slack-ai/issues"
-  },
-  "homepage": "https://github.com/vcore-digital/slack-ai#readme",
+  "private": true,
   "dependencies": {
-    "@slack/bolt": "^3.13.1",
-    "openai": "^3.2.1"
+    "@vespaiach/axios-fetch-adapter": "^0.3.1",
+    "openai": "^4.52.3",
+    "slack-cloudflare-workers": "^0.13.3"
   }
 }
